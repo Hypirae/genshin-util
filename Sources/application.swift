@@ -79,6 +79,10 @@ struct Main: AsyncParsableCommand {
     }
 
     func isolateRows(_ str: String) -> [String] {
+        if str.isEmpty {
+            return []
+        }
+        
         var lines = str.components(separatedBy: "\n")
 
         // remove first and last line
