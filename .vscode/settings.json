@@ -1,0 +1,8 @@
+{
+    "swift.path": "/home/xerberus/Documents/bin/swift-5.10.1-RELEASE-ubuntu22.04/usr/bin",
+    "swift.swiftEnvironmentVariables": {
+        "DEVELOPER_DIR": "public"
+    },
+    "lldb.library": "/home/xerberus/Documents/bin/swift-5.10.1-RELEASE-ubuntu22.04/usr/lib/liblldb.so",
+    "lldb.launch.expressions": "native"
+}

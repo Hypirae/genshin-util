@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:genshin-util}",
+            "name": "Debug GenshinUtil",
+            "program": "${workspaceFolder:genshin-util}/.build/debug/GenshinUtil",
+            "preLaunchTask": "swift: Build Debug GenshinUtil"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:genshin-util}",
+            "name": "Release GenshinUtil",
+            "program": "${workspaceFolder:genshin-util}/.build/release/GenshinUtil",
+            "preLaunchTask": "swift: Build Release GenshinUtil"
+        }
+    ]
+}

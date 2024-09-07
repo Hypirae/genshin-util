@@ -1,0 +1,24 @@
+{
+  "originHash" : "e0a1876cdea7ba603d6b2868d6fec834f112845f39b5807228a055b49de1e11e",
+  "pins" : [
+    {
+      "identity" : "just",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dduan/Just.git",
+      "state" : {
+        "revision" : "1824bf84cf52d11d69ae20cfb89f0ce5bffa5650",
+        "version" : "0.8.0"
+      }
+    },
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser",
+      "state" : {
+        "revision" : "41982a3656a71c768319979febd796c6fd111d5c",
+        "version" : "1.5.0"
+      }
+    }
+  ],
+  "version" : 3
+}
